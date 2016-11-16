@@ -1,0 +1,25 @@
+System messages with codes
+(4xx - errors, 2xx - messages)
+401 Empty request
+410 apiKey and appKey required!
+411 appKey not found!
+412 apiKey not found!
+413 modelName and calledMethod required!
+414 Wrong modelName!
+415 Wrong calledMethod!
+416 Application appKeys are nit defined!
+
+EwCostApi
+420 [key] required!
+421 Tariff not found
+431 Tariff rate not found
+220 Tariff found
+432 CBS rate not found
+441 Shipper tariff zone not found
+442 Receiver tariff zone not found
+221 Cost calculated
+222 UAH rate
+
+TrackingApi
+420 Number or Ref must be set!
+220 Processed items: [count];

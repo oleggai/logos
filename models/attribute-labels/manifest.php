@@ -1,0 +1,35 @@
+<?php
+return [
+    'id' => Yii::t('manifest', 'ID'),
+    'mn_num' => Yii::t('manifest', 'MN num'),
+    'state' => Yii::t('app', 'State'),
+    'date' => Yii::t('manifest', 'Date'),
+    '_date' => Yii::t('manifest', 'Date'),
+    'mn_type' => Yii::t('manifest', 'Type'),
+    'dep_station' => Yii::t('manifest', 'Departure station'),
+    'dep_point' => Yii::t('manifest', 'Departure point'),
+    'dep_point_id' => Yii::t('manifest', 'Departure point'),
+    'dep_station_abbr' => Yii::t('manifest', 'Departure station (abbreviation)'),
+    'des_station' => Yii::t('manifest', 'Destination station'),
+    'des_station_abbr' => Yii::t('manifest', 'Destination station (abbreviation)'),
+    'carriers_name' => Yii::t('manifest', 'Carriers name'),
+    'carriers_id' => Yii::t('manifest', 'Carriers name'),
+    'utd_num' => Yii::t('manifest', 'Utd number'),
+    'utd_code' => Yii::t('manifest', 'Utd code'),
+    'utd_date' => Yii::t('manifest', 'Utd date'),
+    '_utd_date' => Yii::t('manifest', 'Utd date'),
+    'arrival_date' => Yii::t('manifest', 'Arrival date'),
+    '_arrival_date' => Yii::t('manifest', 'Arrival date'),
+    'total_pieces_amount' => Yii::t('manifest', 'Total amount of consolidated pieces'),
+    'total_weight_with_pkg_auto' => Yii::t('manifest', 'Total weight with packaging'),
+    'chargeable_weight_auto' => Yii::t('manifest', 'Chargeable weight, kg'),
+
+
+    'total_ew_amount'  => Yii::t('manifest', 'Total ew amount'),
+    'total_amount_of_pieces'  => Yii::t('manifest', 'Total amount of pieces'),
+    'total_mn_weight_kg'  => Yii::t('manifest', 'Total mn weight(kg)'),
+    'total_pay_cost_euro'  => Yii::t('manifest', 'Total pay cost(euro)'),
+    'destination_station' => Yii::t('manifest', 'Destination Station'),
+    'departure_station' => Yii::t('manifest', 'Departure station'),
+    'operation' => Yii::t('app', 'Operation')
+];
